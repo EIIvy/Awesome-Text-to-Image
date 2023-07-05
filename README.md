@@ -354,7 +354,8 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
     * (arXiv preprint 2019) **FTGAN: A Fully-trained Generative Adversarial Networks for Text to Face Generation**, Xiang Chen et al. [[Paper](https://arxiv.org/abs/1904.05729)]
 
 * <span id="head-CI"> **Compounding Issues🤔**  </span> **[       «🎯Back To Top»       ](#)**
-    * (arXiv preprint 2023) [💬 Adversarial Robustness Analysis] **RIATIG: Reliable and Imperceptible Adversarial Text-to-Image Generation With Natural Prompts**, Han Liu et al.  [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_RIATIG_Reliable_and_Imperceptible_Adversarial_Text-to-Image_Generation_With_Natural_Prompts_CVPR_2023_paper.html)] 
+    * (arXiv preprint 2023) [💬 Robustness] **Evaluating the Robustness of Text-to-image Diffusion Models against Real-world Attacks**, Hongcheng Gao et al.  [[Paper](https://arxiv.org/abs/2306.13103)] 
+    * (CVPR 2023) [💬 Adversarial Robustness Analysis] **RIATIG: Reliable and Imperceptible Adversarial Text-to-Image Generation With Natural Prompts**, Han Liu et al.  [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_RIATIG_Reliable_and_Imperceptible_Adversarial_Text-to-Image_Generation_With_Natural_Prompts_CVPR_2023_paper.html)] 
     * (arXiv preprint 2023) [💬 Textual Inversion] **Is This Loss Informative? Speeding Up Textual Inversion with Deterministic Objective Evaluation**, Anton Voronov et al.  [[Paper](https://arxiv.org/abs/2302.04841)] [[Code](https://github.com/yandex-research/DVAR)]
     * (arXiv preprint 2022) [💬 Interpretable Intervention] **Not Just Pretty Pictures: Text-to-Image Generators Enable Interpretable Interventions for Robust Representations**, Jianhao Yuan et al.  [[Paper](https://arxiv.org/abs/2212.11237)]
     * (arXiv preprint 2022) [💬 Ethical Image Manipulation] **Judge, Localize, and Edit: Ensuring Visual Commonsense Morality for Text-to-Image Generation**, Seongbeom Park et al.  [[Paper](https://arxiv.org/abs/2212.03507)]
@@ -367,6 +368,9 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
     * (arXiv preprint 2022) [💬 Cultural Bias] **The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models**, Lukas Struppek et al.  [[Paper](https://arxiv.org/abs/2209.08891)] 
 
 * <span id="head-2023"> **2023**  </span> **[       «🎯Back To Top»       ](#)**
+     * (arXiv preprint 2023) **Detector Guidance for Multi-Object Text-to-Image Generation**, Luping Liu et al.  [[Paper](https://arxiv.org/abs/2306.02236)]
+     * (arXiv preprint 2023) **A-STAR: Test-time Attention Segregation and Retention for Text-to-image Synthesis**, Aishwarya Agarwal et al.  [[Paper](https://arxiv.org/abs/2306.14544)]
+     * (arXiv preprint 2023) [💬3D] **DreamHuman: Animatable 3D Avatars from Text**, Nikos Kolotouros et al.  [[Paper](https://arxiv.org/abs/2306.09329)] [[Project](https://dream-human.github.io/)]
      * (arXiv preprint 2023) [💬3D] **ATT3D: Amortized Text-to-3D Object Synthesis**, Jonathan Lorraine et al.  [[Paper](https://arxiv.org/abs/2306.07349)] [[Project](https://research.nvidia.com/labs/toronto-ai/ATT3D/)]
      * (arXiv preprint 2023) [💬Evaluation] **ConceptBed: Evaluating Concept Learning Abilities of Text-to-Image Diffusion Models**, Maitreya Patel et al.  [[Paper](https://arxiv.org/abs/2306.04695)] [[Code](https://github.com/ConceptBed/evaluations)] [[Project](https://conceptbed.github.io/)]
      * ⭐(arXiv preprint 2023) **StyleDrop: Text-to-Image Generation in Any Style**, Kihyuk Sohn et al.  [[Paper](https://arxiv.org/abs/2306.00983)] [[Project](https://styledrop.github.io/)]
@@ -643,6 +647,8 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
        * (arXiv preprint 2022) [💬Text+Image+Shape → Image] **Shape-Guided Diffusion with Inside-Outside Attention**, Dong Huk Park et al. [[Paper](https://arxiv.org/abs/2212.00210v1)] [[Project](https://shape-guided-diffusion.github.io/)]
 
    * <span id="head-TI2I"> **Text+Image/Video → Image/Video** </span> **[       «🎯Back To Top»       ](#)**
+       * (arXiv preprint 2023) **Controlling Text-to-Image Diffusion by Orthogonal Finetuning**, Zeju Qiu et al. [[Paper](https://arxiv.org/abs/2306.07280)] [[Project](https://oft.wyliu.com/)] [[Code](https://github.com/Zeju1997/oft)]
+       * (arXiv preprint 2023) [💬Reject Human Instructions] **Accountable Textual-Visual Chat Learns to Reject Human Instructions in Image Re-creation**, Zhiwei Zhang et al. [[Paper](https://arxiv.org/abs/2303.05983)] [[Project](https://matrix-alpha.github.io/)] [[Code](https://github.com/matrix-alpha/Accountable-Textual-Visual-Chat)]
        * (arXiv preprint 2023) **MultiFusion: Fusing Pre-Trained Models for Multi-Lingual, Multi-Modal Image Generation**, Marco Bellagente et al. [[Paper](https://arxiv.org/abs/2305.15296)]
        * (CVPR 2023) **Text-Guided Unsupervised Latent Transformation for Multi-Attribute Image Manipulation**, Xiwen Wei et al. [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Wei_Text-Guided_Unsupervised_Latent_Transformation_for_Multi-Attribute_Image_Manipulation_CVPR_2023_paper.html)] 
        * (arXiv preprint 2023) **Uni-ControlNet: All-in-One Control to Text-to-Image Diffusion Models**, Shihao Zhao et al. [[Paper](https://arxiv.org/abs/2305.16322v1)] [[Project](https://shihaozhaozsh.github.io/unicontrolnet/)]
