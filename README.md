@@ -63,6 +63,7 @@ If you find this paper and repo helpful for your research, please cite it as bel
   * - [x] [CLIPScore](#head-clipscore)
   * - [x] [Mutual Information Divergence (MID)](#head-MID)
   * - [x] [PickScore](#head-PickScore)
+  * - [x] [HPS v2](#head-HPSv2)
   
   
 * - [ ] [3. Datasets](#head3)  
@@ -138,6 +139,8 @@ A number of studies have been conducted on the text-to-image synthesis technique
 
 * <span id="head-PickScore"> PickScore </span> [[Paper](https://arxiv.org/abs/2305.01569)] [[Python Code](https://huggingface.co/yuvalkirstain/PickScore_v1)]
 
+  <span id="head-HPSv2"> Human Preference Score v2 (HPS v2) </span> [[Paper](https://arxiv.org/abs/2306.09341)] [[Python Code](https://github.com/tgxs002/HPSv2)]
+
 ## <span id="head3"> *3. Datasets* </span> [       «🎯Back To Top»       ](#)
     
 * <span id="head-Flower"> **Oxford-102 Flower** </span>
@@ -212,7 +215,7 @@ A number of studies have been conducted on the text-to-image synthesis technique
   
   DeepFashion-MultiModal is a large-scale high-quality human dataset. Human images are annotated with **rich multi-modal labels**, including human parsing labels, keypoints, densepose, fine-grained attributes and textual descriptions.
   * **Detailed information (Images & Text Descriptions):**  ⇒ [[Paper](https://arxiv.org/pdf/2205.15996.pdf)] [[Website](https://github.com/yumingj/DeepFashion-MultiModal)] [[Download](https://drive.google.com/drive/folders/1An2c_ZCkeGmhJg0zUjtZF46vyJgQwIr2?usp=sharing)]
-    * Number of images: 44,096, including 12,701 full body images
+    * Number of images: 44,096, including 12,701 full-body images
     * Descriptions per image: 1 Caption
 
 * <span id="head-ANNA"> **ANNA** </span>
@@ -235,6 +238,8 @@ A number of studies have been conducted on the text-to-image synthesis technique
 
 
 ## <span id="head4"> *4. Project* </span> **[       «🎯Back To Top»       ](#)**
+* **Stable Doodle**. [[ClipDrop](https://clipdrop.co/stable-doodle)] 
+    * > Transform your doodles into real images in seconds.
 * **StableStudio**. [[Github](https://github.com/Stability-AI/StableStudio)] 
     * > The open-source version of [DreamStudio](https://dreamstudio.ai/).
 * ⭐⭐**Stable Diffusion XL**. [[ClipDrop](https://clipdrop.co/stable-diffusion)] [[Website](https://stability.ai/blog/stable-diffusion-xl-beta-available-for-api-customers-and-dreamstudio-users)] [[DreamStudio Beta](https://beta.dreamstudio.ai/dream)]
@@ -354,6 +359,8 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
     * (arXiv preprint 2019) **FTGAN: A Fully-trained Generative Adversarial Networks for Text to Face Generation**, Xiang Chen et al. [[Paper](https://arxiv.org/abs/1904.05729)]
 
 * <span id="head-CI"> **Compounding Issues🤔**  </span> **[       «🎯Back To Top»       ](#)**
+    * (ACL 2023) [💬 Bias] **A Multi-dimensional study on Bias in Vision-Language models**, Gabriele Ruggeri et al.  [[Paper](https://aclanthology.org/2023.findings-acl.403/)]
+    * (FAACT 2023) [💬 Demographic Stereotypes] **Easily Accessible Text-to-Image Generation Amplifies Demographic Stereotypes at Large Scale**, Federico Bianchi et al.  [[Paper](https://dl.acm.org/doi/abs/10.1145/3593013.3594095)]
     * (arXiv preprint 2023) [💬 Robustness] **Evaluating the Robustness of Text-to-image Diffusion Models against Real-world Attacks**, Hongcheng Gao et al.  [[Paper](https://arxiv.org/abs/2306.13103)] 
     * (CVPR 2023) [💬 Adversarial Robustness Analysis] **RIATIG: Reliable and Imperceptible Adversarial Text-to-Image Generation With Natural Prompts**, Han Liu et al.  [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_RIATIG_Reliable_and_Imperceptible_Adversarial_Text-to-Image_Generation_With_Natural_Prompts_CVPR_2023_paper.html)] 
     * (arXiv preprint 2023) [💬 Textual Inversion] **Is This Loss Informative? Speeding Up Textual Inversion with Deterministic Objective Evaluation**, Anton Voronov et al.  [[Paper](https://arxiv.org/abs/2302.04841)] [[Code](https://github.com/yandex-research/DVAR)]
@@ -362,12 +369,15 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
     * (arXiv preprint 2022) [💬 Creativity Transfer] **Inversion-Based Creativity Transfer with Diffusion Models**, Yuxin Zhang et al.  [[Paper](https://arxiv.org/abs/2211.13203)]
     * (arXiv preprint 2022) [💬 Ambiguity] **Is the Elephant Flying? Resolving Ambiguities in Text-to-Image Generative Models**, Ninareh Mehrabi et al.  [[Paper](https://arxiv.org/abs/2211.12503)]
     * (arXiv preprint 2022) [💬 Racial Politics] **A Sign That Spells: DALL-E 2, Invisual Images and The Racial Politics of Feature Space**, Fabian Offert et al.  [[Paper](https://arxiv.org/abs/2211.06323)]
-    * (arXiv preprint 2022) [💬 Demographic Stereotypes] **Easily Accessible Text-to-Image Generation Amplifies Demographic Stereotypes at Large Scale**, Federico Bianchi et al.  [[Paper](https://arxiv.org/abs/2211.03759)]
     * (arXiv preprint 2022) [💬 Privacy Analysis] **Membership Inference Attacks Against Text-to-image Generation Models**, Yixin Wu et al.  [[Paper](https://arxiv.org/abs/2210.00968)]
     * (arXiv preprint 2022) [💬 Authenticity Evaluation for Fake Images] **DE-FAKE: Detection and Attribution of Fake Images Generated by Text-to-Image Diffusion Models**, Zeyang Sha et al.  [[Paper](https://arxiv.org/abs/2210.06998v1)] 
     * (arXiv preprint 2022) [💬 Cultural Bias] **The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models**, Lukas Struppek et al.  [[Paper](https://arxiv.org/abs/2209.08891)] 
 
 * <span id="head-2023"> **2023**  </span> **[       «🎯Back To Top»       ](#)**
+     * (arXiv preprint 2023) **T2I-CompBench: A Comprehensive Benchmark for Open-world Compositional Text-to-image Generation**, Kaiyi Huang et al.  [[Paper](https://arxiv.org/abs/2307.06350)] [[Code](https://github.com/Karine-Huang/T2I-CompBench)] [[Project](https://karine-h.github.io/T2I-CompBench/)] 
+     * (arXiv preprint 2023) [💬Human Preference Evaluation] **Human Preference Score v2: A Solid Benchmark for Evaluating Human Preferences of Text-to-Image Synthesis**, Xiaoshi Wu et al. [[Paper](https://arxiv.org/abs/2306.09341)] [[Code](https://github.com/tgxs002/HPSv2)]
+     * (arXiv preprint 2023) **Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark**, Shuyu Yang et al.  [[Paper](https://arxiv.org/abs/2306.02898)] [[Code](https://github.com/Shuyu-XJTU/APTM)] [[Project](https://www.zdzheng.xyz/publication/Towards-2023)]
+     * (arXiv preprint 2023) **Synthesizing Artistic Cinemagraphs from Text**, Aniruddha Mahapatra et al.  [[Paper](https://arxiv.org/abs/2306.02236)] [[Code](https://github.com/text2cinemagraph/artistic-cinemagraph)] [[Project](https://text2cinemagraph.github.io/website/)]
      * (arXiv preprint 2023) **Detector Guidance for Multi-Object Text-to-Image Generation**, Luping Liu et al.  [[Paper](https://arxiv.org/abs/2306.02236)]
      * (arXiv preprint 2023) **A-STAR: Test-time Attention Segregation and Retention for Text-to-image Synthesis**, Aishwarya Agarwal et al.  [[Paper](https://arxiv.org/abs/2306.14544)]
      * (arXiv preprint 2023) [💬3D] **DreamHuman: Animatable 3D Avatars from Text**, Nikos Kolotouros et al.  [[Paper](https://arxiv.org/abs/2306.09329)] [[Project](https://dream-human.github.io/)]
@@ -385,7 +395,7 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
      * (ICML 2023) **TR0N: Translator Networks for 0-Shot Plug-and-Play Conditional Generation**, Zhaoyan Liu et al.  [[Paper](https://arxiv.org/abs/2304.13742)] [[Code](https://github.com/layer6ai-labs/tr0n)] [[Hugging Face](https://huggingface.co/spaces/Layer6/TR0N)]
      * (ICLR 2023) [💬3D]**DreamFusion: Text-to-3D using 2D Diffusion**, Ben Poole et al.  [[Paper (arXiv)](https://arxiv.org/abs/2209.14988)] [[Paper (OpenReview)](https://openreview.net/forum?id=FjNys5c7VyY)] [[Project](https://dreamfusion3d.github.io/)] [[Short Read](https://www.louisbouchard.ai/dreamfusion/)]
      * (ICLR 2023) **Training-Free Structured Diffusion Guidance for Compositional Text-to-Image Synthesis**, Weixi Feng et al.  [[Paper (arXiv)](https://arxiv.org/abs/2212.05032)] [[Paper (OpenReview)](https://openreview.net/forum?id=PUIqjT4rzq7)] [[Code](https://github.com/shunk031/training-free-structured-diffusion-guidance)]
-     * ⭐⭐(arXiv preprint 2023) **Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation**, Yuval Kirstain et al.  [[Paper](https://arxiv.org/abs/2305.01569)] [[Code](https://github.com/yuvalkirstain/PickScore)] [[Dataset](https://huggingface.co/datasets/yuvalkirstain/pickapic_v1)] [[Online Application](https://pickapic.io/)] [[PickScore ](https://huggingface.co/yuvalkirstain/PickScore_v1)] 
+     * ⭐⭐(arXiv preprint 2023) **Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation**, Yuval Kirstain et al.  [[Paper](https://arxiv.org/abs/2305.01569)] [[Code](https://github.com/yuvalkirstain/PickScore)] [[Dataset](https://huggingface.co/datasets/yuvalkirstain/pickapic_v1)] [[Online Application](https://pickapic.io/)] [[PickScore](https://huggingface.co/yuvalkirstain/PickScore_v1)] 
      * (arXiv preprint 2023) **TTIDA: Controllable Generative Data Augmentation via Text-to-Text and Text-to-Image Models**, Yuwei Yin et al.  [[Paper](https://arxiv.org/abs/2304.08821)] 
      * (arXiv preprint 2023) [💬 Textual Inversion] **Controllable Textual Inversion for Personalized Text-to-Image Generation**, Jianan Yang et al.  [[Paper](https://arxiv.org/abs/2304.05265)] 
      * (arXiv preprint 2023) **Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion**, Seongmin Lee et al.  [[Paper](https://arxiv.org/abs/2305.03509)] [[Project](https://poloclub.github.io/diffusion-explainer/)] 
@@ -647,6 +657,9 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
        * (arXiv preprint 2022) [💬Text+Image+Shape → Image] **Shape-Guided Diffusion with Inside-Outside Attention**, Dong Huk Park et al. [[Paper](https://arxiv.org/abs/2212.00210v1)] [[Project](https://shape-guided-diffusion.github.io/)]
 
    * <span id="head-TI2I"> **Text+Image/Video → Image/Video** </span> **[       «🎯Back To Top»       ](#)**
+       * (ACM Transactions on Graphics 2023) **CLIP-Guided StyleGAN Inversion for Text-Driven Real Image Editing**, Ahmet Canberk Baykal et al. [[Paper](https://arxiv.org/abs/2307.08397)] 
+       * (arXiv preprint 2023) ⭐⭐**AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning**, Yuwei Guo et al. [[Paper](https://arxiv.org/abs/2307.04725)] [[Project](https://animatediff.github.io/)] [[Code](https://github.com/guoyww/animatediff/)]
+       * (ICLR 2023) **DiffEdit: Diffusion-based semantic image editing with mask guidance**, Guillaume Couairon et al. [[Paper](https://arxiv.org/abs/2210.11427v1)] 
        * (arXiv preprint 2023) **Controlling Text-to-Image Diffusion by Orthogonal Finetuning**, Zeju Qiu et al. [[Paper](https://arxiv.org/abs/2306.07280)] [[Project](https://oft.wyliu.com/)] [[Code](https://github.com/Zeju1997/oft)]
        * (arXiv preprint 2023) [💬Reject Human Instructions] **Accountable Textual-Visual Chat Learns to Reject Human Instructions in Image Re-creation**, Zhiwei Zhang et al. [[Paper](https://arxiv.org/abs/2303.05983)] [[Project](https://matrix-alpha.github.io/)] [[Code](https://github.com/matrix-alpha/Accountable-Textual-Visual-Chat)]
        * (arXiv preprint 2023) **MultiFusion: Fusing Pre-Trained Models for Multi-Lingual, Multi-Modal Image Generation**, Marco Bellagente et al. [[Paper](https://arxiv.org/abs/2305.15296)]
@@ -680,7 +693,6 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
        * (arXiv preprint 2022) **InstructPix2Pix: Learning to Follow Image Editing Instructions**, Tim Brooks et al. [[Paper](https://arxiv.org/abs/2211.09800)] [[Project](https://www.timothybrooks.com/instruct-pix2pix)] 
        * (ECCV 2022) [💬Style Transfer] **Language-Driven Artistic Style Transfer**, Tsu-Jui Fu et al. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-20059-5_41)] [[Code](https://github.com/tsujuifu/pytorch_ldast)]
        * (arXiv preprint 2022) **Bridging CLIP and StyleGAN through Latent Alignment for Image Editing**, Wanfeng Zheng et al. [[Paper](https://arxiv.org/abs/2210.04506)] 
-       * (arXiv preprint 2022) **DiffEdit: Diffusion-based semantic image editing with mask guidance**, Guillaume Couairon et al. [[Paper](https://arxiv.org/abs/2210.11427v1)] 
        * (NeurIPS 2022) **One Model to Edit Them All: Free-Form Text-Driven Image Manipulation with Semantic Modulations**, Yiming Zhu et al. [[Paper](https://arxiv.org/abs/2210.07883)] [[Code](https://github.com/KumapowerLIU/FFCLIP)]
        * (BMVC 2022) **LDEdit: Towards Generalized Text Guided Image Manipulation via Latent Diffusion Models**, Paramanand Chandramouli et al. [[Paper](https://arxiv.org/abs/2210.02249v1)]
        * (ACMMM 2022) [💬Iterative Language-based Image Manipulation] **LS-GAN: Iterative Language-based Image Manipulation via Long and Short Term Consistency Reasoning**, Gaoxiang Cong et al. [[Paper](https://dl.acm.org/doi/abs/10.1145/3503161.3548206)] 
@@ -738,6 +750,7 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
        * (arXiv preprint 2022) **Robust Sound-Guided Image Manipulation**, Seung Hyun Lee et al. [[Paper](https://arxiv.org/abs/2208.14114)]
        
    * <span id="head-L2I"> **Layout/Semantic Mask → Image** </span> **[       «🎯Back To Top»       ](#)**
+       * (CVPR 2023) [💬Mask+Text→Image] **SceneComposer: Any-Level Semantic Image Synthesis**, Yu Zeng et al.  [[Paper](https://arxiv.org/abs/2211.11742)] [[Demo](https://forms.microsoft.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fEq8XkaWWJBhiLWWMELo2NUMjJYS0FDS0RISUVBUllMV0FRSzNCOTFTQy4u)]
        * (CVPR 2023) **Freestyle Layout-to-Image Synthesis**, Han Xue et al. [[Paper](https://arxiv.org/abs/2303.14412)] [[Code](https://github.com/essunny310/FreestyleNet)]
        * (CVPR 2023) **LayoutDiffusion: Controllable Diffusion Model for Layout-to-image Generation**, Guangcong Zheng et al. [[Paper](https://arxiv.org/abs/2303.17189)] [[Code](https://github.com/ZGCTroy/LayoutDiffusion)]
        * (arXiv preprint 2023) [💬Layout+Text→Image] **Training-Free Layout Control with Cross-Attention Guidance**, Minghao Chen et al.  [[Paper](https://arxiv.org/abs/2304.03373)] [[Code](https://github.com/silent-chen/layout-guidance)] [[Project](https://silent-chen.github.io/layout-guidance/)]
@@ -772,6 +785,7 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
        * (IEEE Access 2019) **Query is GAN: Scene Retrieval With Attentional Text-to-Image Generative Adversarial Network**, RINTARO YANAGI et al. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8868179)]
  
    * <span id="head-T2M"> **Text → 3D/Motion/Shape/Mesh/Object...** </span> **[       «🎯Back To Top»       ](#)**
+       * (arXiv preprint 2023) [💬Text → 3D] **HD-Fusion: Detailed Text-to-3D Generation Leveraging Multiple Noise Estimation**, Jinbo Wu et al.  [[Paper](https://arxiv.org/abs/2307.16183)] 
        * (arXiv preprint 2023) [💬Text → 3D] **T2TD: Text-3D Generation Model based on Prior Knowledge Guidance**, Weizhi Nie et al.  [[Paper](https://arxiv.org/abs/2305.15753)] 
        * (arXiv preprint 2023) [💬Text → 3D] **ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation**, Zhengyi Wang et al.  [[Paper](https://arxiv.org/abs/2305.16213)] [[Project](https://ml.cs.tsinghua.edu.cn/prolificdreamer/)] 
        * (arXiv preprint 2023) [💬Text+Mesh → Mesh] **X-Mesh: Towards Fast and Accurate Text-driven 3D Stylization via Dynamic Textual Guidance**, Yiwei Ma et al.  [[Paper](https://arxiv.org/abs/2303.15764)] [[Project](https://xmu-xiaoma666.github.io/Projects/X-Mesh/)] [[Code](https://github.com/xmu-xiaoma666/X-Mesh)] 
