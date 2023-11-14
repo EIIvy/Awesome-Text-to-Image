@@ -105,7 +105,7 @@ If you find this paper and repo helpful for your research, please cite it as bel
   * - [ ] [Speech → Image](#head-s2i)
   * - [ ] [Scene Graph → Image](#head-sg2i)
   * - [ ] [Text → Visual Retrieval](#head-t2vr)
-  * - [ ] [Text → Motion/Shape/Mesh/Object...](#head-t2m)
+  * - [ ] [Text → 3D/Motion/Shape/Mesh/Object...](#head-t2m)
   * - [ ] [Text → Video](#head-t2v)
   * - [ ] [Text → Music](#head-t2music)
 
@@ -278,7 +278,6 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
     * >Text2Art is an AI-powered art generator based on VQGAN+CLIP that can generate all kinds of art such as pixel art, drawing, and painting from just text input. 
 * **Survey Text Based Image Synthesis** [[Blog](https://hackmd.io/@prajwalsingh/imagesynthesis#) (2021)]
 
-
 <!--
 ### <p align=center> **🍃Update History**</p>
 *(2023.03.04 Update)*
@@ -364,6 +363,7 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
     * (arXiv preprint 2019) **FTGAN: A Fully-trained Generative Adversarial Networks for Text to Face Generation**, Xiang Chen et al. [[Paper](https://arxiv.org/abs/1904.05729)]
 
 * <span id="head-ci"> **Compounding Issues🤔**  </span> **[       «🎯Back To Top»       ](#)**
+    * ⭐⭐(NeurIPS 2023) [💬 Holistic Evaluation] **Holistic Evaluation of Text-To-Image Models**, Tony Lee et al.  [[Paper](https://arxiv.org/abs/2311.04287)] [[Code](https://github.com/stanford-crfm/helm)] [[Project](https://crfm.stanford.edu/heim/v1.1.0/)]
     * (ICCV 2023) [💬 Safety] **Rickrolling the Artist: Injecting Backdoors into Text Encoders for Text-to-Image Synthesis**, Lukas Struppek et al.  [[Paper](https://arxiv.org/abs/2211.02408)] [[Code](https://github.com/LukasStruppek/Rickrolling-the-Artist)]
     * (arXiv preprint 2023) [💬 Natural Attack Capability] **Intriguing Properties of Diffusion Models: A Large-Scale Dataset for Evaluating Natural Attack Capability in Text-to-Image Generative Models**, Takami Sato et al.  [[Paper](https://arxiv.org/abs/2308.15692)]
     * (ACL 2023) [💬 Bias] **A Multi-dimensional study on Bias in Vision-Language models**, Gabriele Ruggeri et al.  [[Paper](https://aclanthology.org/2023.findings-acl.403/)]
@@ -381,6 +381,7 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
     * (arXiv preprint 2022) [💬 Cultural Bias] **The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models**, Lukas Struppek et al.  [[Paper](https://arxiv.org/abs/2209.08891)] 
 
 * <span id="head-2023"> **2023**  </span> **[       «🎯Back To Top»       ](#)**
+     * (ICCV 2023) **ITI-GEN: Inclusive Text-to-Image Generation**, Cheng Zhang et al. [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_ITI-GEN_Inclusive_Text-to-Image_Generation_ICCV_2023_paper.html)] [[Code](https://github.com/humansensinglab/ITI-GEN)] [[Project](https://czhang0528.github.io/iti-gen)] 
      * (arXiv preprint 2023) **Mini-DALLE3: Interactive Text to Image by Prompting Large Language Models**, Zeqiang Lai et al.  [[Paper](https://arxiv.org/abs/2310.07653)] [[Code](https://github.com/Zeqiang-Lai/Mini-DALLE3)] [[Demo](http://139.224.23.16:10085/)] [[Project](https://minidalle3.github.io/)] 
      * (arXiv preprint 2023) [💬Evaluation] **GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment**, Dhruba Ghosh et al.  [[Paper](https://arxiv.org/abs/2310.11513v1)] [[Code](https://github.com/djghosh13/geneval)] 
      * ⭐(arXiv preprint 2023) **Kandinsky: an Improved Text-to-Image Synthesis with Image Prior and Latent Diffusion**, Anton Razzhigaev et al.  [[Paper](https://arxiv.org/abs/2310.03502)] [[Code](https://github.com/ai-forever/Kandinsky-2)] [[Demo](https://fusionbrain.ai/en/editor/)] [[Demo Video](https://www.youtube.com/watch?v=c7zHPc59cWU)] [[Hugging Face](https://huggingface.co/kandinsky-community)]
@@ -656,6 +657,7 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
          * 📚Text-To-Image, Image-To-Image, Text+Image → Image 
 
    * <span id="head-app"> **🛫Applications🛫** </span> **[       «🎯Back To Top»       ](#)**
+       * (arXiv preprint 2023) [💬LLMs] **LLM as an Art Director (LaDi): Using LLMs to improve Text-to-Media Generators**, Allen Roush et al. [[Paper](https://arxiv.org/abs/2311.03716v1)]
        * (arXiv preprint 2023) [💬Segmentation] **SegGen: Supercharging Segmentation Models with Text2Mask and Mask2Img Synthesis**, Hanrong Ye et al. [[Paper](https://arxiv.org/abs/2311.03355)] [[Project](https://seggenerator.github.io/)]
        * (arXiv preprint 2023) [💬Text Editing] **DiffUTE: Universal Text Editing Diffusion Model**, Haoxing Chen et al. [[Paper](https://arxiv.org/abs/2305.10825)] 
        * (arXiv preprint 2023) [💬Text Character Generation] **TextDiffuser: Diffusion Models as Text Painters**, Jingye Chen et al. [[Paper](https://arxiv.org/abs/2305.10855)] 
@@ -668,6 +670,7 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
        * (arXiv preprint 2022) [💬Text+Image+Shape → Image] **Shape-Guided Diffusion with Inside-Outside Attention**, Dong Huk Park et al. [[Paper](https://arxiv.org/abs/2212.00210v1)] [[Project](https://shape-guided-diffusion.github.io/)]
 
    * <span id="head-ti2i"> **Text+Image/Video → Image/Video** </span> **[       «🎯Back To Top»       ](#)**
+       * (ICCV 2023) **A Latent Space of Stochastic Diffusion Models for Zero-Shot Image Editing and Guidance**, Chen Henry Wu et al. [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_A_Latent_Space_of_Stochastic_Diffusion_Models_for_Zero-Shot_Image_ICCV_2023_paper.pdf)] [[Arxiv](https://arxiv.org/abs/2210.05559)] [[Code](https://github.com/chenwu98/cycle-diffusion)]
        * (arXiv preprint 2023) [💬Multi-Subject Generation] **VideoDreamer: Customized Multi-Subject Text-to-Video Generation with Disen-Mix Finetuning**, Hong Chen et al. [[Paper](https://arxiv.org/abs/2311.00990v1)] [[Project](https://videodreamer23.github.io/)] [[Code](https://github.com/videodreamer23/videodreamer23.github.io)]
        * (arXiv preprint 2023) [💬Video Editing] **CCEdit: Creative and Controllable Video Editing via Diffusion Models**, Ruoyu Feng et al. [[Paper](https://arxiv.org/abs/2309.16496)] [[Demo video](https://www.youtube.com/watch?v=UQw4jq-igN4)] 
        * ⭐⭐ (SIGGRAPH Asia 2023) **Break-A-Scene: Extracting Multiple Concepts from a Single Image**, Omri Avrahami et al. [[Paper](https://arxiv.org/abs/2305.16311)] [[Project](https://omriavrahami.com/break-a-scene/)] [[Code](https://github.com/google/break-a-scene)]
@@ -807,6 +810,7 @@ There are two ways to experience the tools: the Midjourney Bot and the [Web App]
        * (IEEE Access 2019) **Query is GAN: Scene Retrieval With Attentional Text-to-Image Generative Adversarial Network**, RINTARO YANAGI et al. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8868179)]
  
    * <span id="head-t2m"> **Text → 3D/Motion/Shape/Mesh/Object...** </span> **[       «🎯Back To Top»       ](#)**
+       * (ACMMM 2023) [💬Text+Sketch → 3D] **Control3D: Towards Controllable Text-to-3D Generation**, Yang Chen et al.  [[Paper](https://arxiv.org/abs/2311.05461)] 
        * (SIGGRAPH Asia 2023 & TOG) [💬Text → 3D] **EXIM: A Hybrid Explicit-Implicit Representation for Text-Guided 3D Shape Generation**, Zhengzhe Liu et al.  [[Paper](https://arxiv.org/abs/2311.01714v1)] [[Code](https://github.com/liuzhengzhe/EXIM)] 
        * (arXiv preprint 2023) [💬Text → 3D] **PaintHuman: Towards High-fidelity Text-to-3D Human Texturing via Denoised Score Distillation**, Jianhui Yu et al.  [[Paper](https://arxiv.org/abs/2310.09458v1)] 
        * (arXiv preprint 2023) [💬Text → Motion] **Fg-T2M: Fine-Grained Text-Driven Human Motion Generation via Diffusion Model**, Yin Wang et al.  [[Paper](https://arxiv.org/abs/2309.06284)] 
